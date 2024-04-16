@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+void main()
+{
+    int i,num;
+    float sum=0;
+    
+    scanf("%d",&num);
+    printf("1 ");
+    
+    for(i=2;i<=num;i++)
+    {
+         printf(" + 1/%d",i);
+         
+         
+    }
+    printf("\t");
+    for(i=1;i<=num;i++)
+    {
+         sum=sum+(((float)1/(float)i));
+         
+    }
+        
+    
+    printf(" = %f",sum);
+}
